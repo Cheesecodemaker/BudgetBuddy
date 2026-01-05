@@ -11,41 +11,6 @@
 
 ---
 
-## 🏗️ Architecture
-
-BudgetBuddy follows a classic **MERN + TypeScript** (MERT?) stack architecture, decoupled into a **Client** (Frontend) and **Server** (Backend).
-
-```mermaid
-graph TD
-    subgraph User
-        A[Browser]
-    end
-
-    subgraph Client ["Client (React + Vite)"]
-        B[UI Components]
-        C[Financial Context]
-        D[Clerk Auth Provider]
-    end
-
-    subgraph Server ["Server (Express + Node.js)"]
-        E[API Routes]
-        F[Mongoose Models]
-    end
-
-    subgraph Database ["Database (MongoDB Atlas)"]
-        G[(Financial Records)]
-    end
-
-    A --> |"HTTP Requests"| B
-    B --> C
-    C --> |"API Calls (fetch)"| E
-    D --> |"User ID"| C
-    E --> F
-    F --> |"CRUD Operations"| G
-```
-
----
-
 ## 🔄 How It Works
 
 1.  **User Authentication**: When a user opens the app, they are prompted to sign in via Clerk. This provides a unique `userId` for all subsequent operations.
