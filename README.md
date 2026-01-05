@@ -1,22 +1,3 @@
-<p align="center">
-  <img src="./assets/hero.png" alt="BudgetBuddy Hero" width="100%" />
-</p>
-
-<h1 align="center">💰 BudgetBuddy</h1>
-
-<p align="center">
-  <strong>A modern, full-stack personal finance tracker to help you manage your expenses effortlessly.</strong>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/React-18.2-61DAFB?style=for-the-badge&logo=react" />
-  <img src="https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript" />
-  <img src="https://img.shields.io/badge/MongoDB-8.x-47A248?style=for-the-badge&logo=mongodb" />
-  <img src="https://img.shields.io/badge/Express-4.x-000000?style=for-the-badge&logo=express" />
-  <img src="https://img.shields.io/badge/Clerk-Auth-6C47FF?style=for-the-badge" />
-</p>
-
----
 
 ## ✨ Features
 
