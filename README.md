@@ -138,7 +138,3 @@ npm run dev
 > The client will run on `http://localhost:5173`.
 
 ---
-
-## 📜 License
-
-This project is open-source under the MIT License.
